@@ -1,0 +1,24 @@
+{
+  "name": "testlogs",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Test de logs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Miguel Bernal",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.0.1",
+    "axios": "^1.7.7",
+    "chai": "^5.1.1",
+    "cucumber-html-reporter": "^7.1.1",
+    "mocha": "^10.7.3"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.0.3",
+    "ajv": "^8.17.1",
+    "dotenv": "^16.4.5"
+  }
+}
